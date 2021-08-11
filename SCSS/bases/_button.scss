@@ -1,0 +1,18 @@
+body{
+    header{
+        .btn-outline-success {
+            color:  rgb(138, 138, 138);
+            border-color:  rgb(138, 138, 138);
+        }
+    }
+    main{
+        .btn-primary {
+            color:  rgb(138, 138, 138);
+            background-color: white;
+            border-color:  rgb(138, 138, 138);
+        }
+        .btn{
+            margin: 25px;
+        }
+    }
+}

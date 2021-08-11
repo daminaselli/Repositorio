@@ -1,0 +1,37 @@
+body{
+    main{
+        .envios{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            justify-items: center;
+            align-items: start;
+            grid-column-gap: 15px;
+            height: 100%;
+            padding: 20px;
+            margin: 20px;
+            font-size: 30px;
+            text-align: center;
+            .envios__titulo{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-content: space-around;
+                align-items: center;
+                height: 100%;
+                overflow: hidden;
+            }
+            .envios__h3{
+                background-color: rgb(250, 228, 208);
+                border-radius: 15px;
+                color: map-get($map: $colors, $key: negro);
+            }
+            .envios__mapa{
+                width: 400px; 
+                height: 400px;
+                margin: 50px;
+            }
+        }
+    }
+}

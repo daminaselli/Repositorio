@@ -1,0 +1,16 @@
+body{
+    main{
+        .centrar{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            .carousel{
+                width: 500px !important;
+            }
+            .w-100{
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+}

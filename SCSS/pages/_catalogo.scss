@@ -1,0 +1,68 @@
+body{
+    main{
+        .anticipacion{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            justify-items: center;
+            align-items: start;
+            grid-column-gap: 15px;
+            height: 200px;
+            padding: 20px;
+            margin: 20px;
+            font-size: 13px;
+            text-align: center;
+            .anticipacion__catalogo{
+                margin: 10px;
+                .anticipacion__catalogo__h3{
+                    background-color: rgb(250, 228, 208);
+                    color: map-get($map: $colors, $key: negro);
+                    width: 100%;
+                    height: 100%;
+                    padding: 10px;
+                    margin: 0px;
+                    border-radius: 15px;
+                    font-size: 20px;
+                }
+            } 
+        }
+        .card{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            border-radius: 15px;
+            border-style: outset;
+            margin: 10px;
+            .card-img-top{
+                width: 400px;
+                height: 400px;
+                transition: all .3s;
+                &:hover{
+                    opacity: 0.7;
+                    transform: scale(0.9);
+                }
+            }
+            .card-title{
+                font-weight: bold;
+                background-color: rgb(250, 228, 208);
+                color: map-get($map: $colors, $key: negro);
+                border-radius: 15px;
+                font-family: cursive;
+                line-height: 30px;
+                font-size: 22px;
+            }
+            .card-text{
+                line-height: 30px;
+                border-spacing: 100px;
+            }
+            td{
+                padding: 15px;
+                color: map-get($map: $colors, $key: gris);
+            }
+            th{
+                color: map-get($map: $colors, $key: negro);
+            }
+        }
+    }
+}
