@@ -52,7 +52,8 @@ body header {
     height: 100%;
     text-align: center;
     padding: 25px;
-    line-height: 30px; }
+    line-height: 30px;
+    -webkit-text-stroke: 0.5px black; }
   body header .subtitulo {
     font-family: 'Dancing Script', cursive;
     color: white;
@@ -61,7 +62,8 @@ body header {
     padding: 10px;
     font-size: 60px;
     text-align: center;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    -webkit-text-stroke: 0.5px black; }
   body header .bg-light {
     background-color: #e7e0f3 !important; }
   body header .dropdown-menu {
