@@ -12,6 +12,7 @@ body{
             text-align: center;
             padding: 25px;
             line-height: 30px;
+            -webkit-text-stroke: 0.5px black;
             }
         .subtitulo{
             font-family: 'Dancing Script', cursive;
@@ -22,6 +23,7 @@ body{
             font-size: 60px;
             text-align: center;
             letter-spacing: 2px;
+            -webkit-text-stroke: 0.5px black;
         }
         .bg-light {
             background-color: rgb(231, 224, 243)!important;
