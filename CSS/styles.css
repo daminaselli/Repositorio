@@ -250,8 +250,7 @@ body footer {
       text-align: center;
       list-style: none;
       letter-spacing: 0px;
-      line-height: 10%;
-      margin-top: 40px; }
+      line-height: 10%; }
     body header .subtitulo {
       font-family: 'Cedarville Cursive', cursive;
       color: white;
@@ -314,7 +313,7 @@ body footer {
           height: 250px; }
     body main .anticipacion {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       grid-template-rows: 1fr;
       justify-items: center;
       align-items: flex-start;
@@ -432,8 +431,7 @@ body footer {
       text-align: center;
       list-style: none;
       letter-spacing: 0px;
-      line-height: 10%;
-      margin-top: 40px; }
+      line-height: 10%; }
     body header .subtitulo {
       font-family: 'Cedarville Cursive', cursive;
       color: white;
@@ -496,7 +494,7 @@ body footer {
           height: 150px; }
     body main .anticipacion {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       grid-template-rows: 1fr;
       justify-items: center;
       align-items: flex-start;
@@ -614,8 +612,7 @@ body footer {
       text-align: center;
       list-style: none;
       letter-spacing: 0px;
-      line-height: 10%;
-      margin-top: 40px; }
+      line-height: 10%; }
     body header .subtitulo {
       font-family: 'Cedarville Cursive', cursive;
       color: white;
@@ -678,7 +675,7 @@ body footer {
           height: 100px; }
     body main .anticipacion {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       grid-template-rows: 1fr;
       justify-items: center;
       align-items: flex-start;
