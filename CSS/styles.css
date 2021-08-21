@@ -209,6 +209,14 @@ body main .envios {
     height: 400px;
     margin: 50px; }
 
+.margen {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .margen .form-select {
+    color: gray; }
+
 body footer {
   background-image: url("../img/Fondo.jpeg");
   background-repeat: no-repeat;
@@ -401,6 +409,11 @@ body footer {
           width: 350px;
           height: 350px;
           margin: 50px; }
+      body main .margen {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px; }
     body footer {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
@@ -590,6 +603,11 @@ body footer {
           width: 280px;
           height: 280px;
           margin: 20px; }
+      body main .margen {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px; }
     body footer {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
@@ -780,6 +798,11 @@ body footer {
           width: 220px;
           height: 220px;
           margin: 20px; }
+      body main .margen {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px; }
     body footer {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
