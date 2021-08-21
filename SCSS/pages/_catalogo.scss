@@ -31,9 +31,8 @@ body{
             flex-wrap: wrap;
             align-content: center;
             align-items: center;
-            border-radius: 15px;
-            border-style: outset;
             margin: 10px;
+            border: none;
             .card-img-top{
                 width: 400px;
                 height: 400px;
@@ -53,7 +52,7 @@ body{
                 font-size: 22px;
             }
             .card-text{
-                line-height: 30px;
+                line-height: 28px;
                 border-spacing: 100px;
             }
             td{
