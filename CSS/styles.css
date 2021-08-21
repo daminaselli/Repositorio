@@ -254,7 +254,8 @@ body footer {
     color: #8a8a8a;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-align: center; }
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
     body header {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
@@ -449,7 +450,8 @@ body footer {
     color: #8a8a8a;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-align: center; }
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
     body header {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
@@ -644,7 +646,8 @@ body footer {
     color: #8a8a8a;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-align: center; }
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
     body header {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
