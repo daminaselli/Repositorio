@@ -1,6 +1,9 @@
 @media (min-width: 517px) and (max-width: 980px) {
     body{
         header{
+            background-image:url("../img/Fondo.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;   
             .trazodulce{
                 font-size: 60px;
                 font-family: 'Times New Roman', Times, serif;
@@ -129,19 +132,24 @@
                     padding: 12px;
                 }
             }    
+            .integrantes{
+                display: flex;
+                flex-direction: column;      
+                align-items: center;      
             .integrantes__nosotros{
-                display: inline-block;
-                width: 400px;
-                margin: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 .integrantes__titulo{
                     font-size: 15px;
                     text-decoration: underline;
                     font-weight:bold;
                 }
                 .integrantes__nosotros__foto{
-                    width: 250px;
-                    height: 250px;
+                    width: 200px;
+                    height: 200px;
                 }
+            }
             }
             .envios{
                 display: grid;
@@ -214,6 +222,9 @@
 @media (min-width: 351px) and (max-width: 516px) {
     body{
         header{
+            background-image:url("../img/Fondo.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;   
             .trazodulce{
                 font-size: 45px;
                 font-family: 'Times New Roman', Times, serif;
@@ -342,10 +353,14 @@
                     padding: 10px;
                 }
             }
+            .integrantes{
+                display: flex;
+                flex-direction: column;      
+                align-items: center;      
             .integrantes__nosotros{
-                display: inline-block;
-                width: 400px;
-                margin: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 .integrantes__titulo{
                     font-size: 12px;
                     text-decoration: underline;
@@ -355,6 +370,7 @@
                     width: 200px;
                     height: 200px;
                 }
+            }
             }
             .envios{
                 display: grid;
@@ -427,6 +443,9 @@
 @media (min-width: 0px) and (max-width: 350px) {
     body{
         header{
+            background-image:url("../img/Fondo.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;   
             .trazodulce{
                 font-size: 37px;
                 font-family: 'Times New Roman', Times, serif;
@@ -556,10 +575,14 @@
                     padding: 10px;
                 }
             }
+            .integrantes{
+                display: flex;
+                flex-direction: column;      
+                align-items: center;      
             .integrantes__nosotros{
-                display: inline-block;
-                width: 400px;
-                margin: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 .integrantes__titulo{
                     font-size: 10px;
                     text-decoration: underline;
@@ -569,6 +592,7 @@
                     width: 150px;
                     height: 150px;
                 }
+            }
             }
             .envios{
                 display: grid;
