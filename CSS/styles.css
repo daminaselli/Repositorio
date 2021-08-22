@@ -254,8 +254,7 @@ body footer {
     color: #8a8a8a;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif; }
+    text-align: center; }
     body header {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
@@ -281,10 +280,7 @@ body footer {
     body main {
       background-color: white;
       color: black;
-      font-family: 'Nixie One', cursive;
       font-size: 14px;
-      font-style: italic;
-      font-weight: bold;
       text-align: center;
       line-height: 30px;
       width: 100%;
@@ -450,8 +446,7 @@ body footer {
     color: #8a8a8a;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif; }
+    text-align: center; }
     body header {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
@@ -477,10 +472,7 @@ body footer {
     body main {
       background-color: white;
       color: black;
-      font-family: 'Nixie One', cursive;
       font-size: 14px;
-      font-style: italic;
-      font-weight: bold;
       text-align: center;
       line-height: 30px;
       width: 100%;
@@ -646,8 +638,7 @@ body footer {
     color: #8a8a8a;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif; }
+    text-align: center; }
     body header {
       background-image: url("../img/Fondo.jpeg");
       background-repeat: no-repeat;
@@ -672,10 +663,7 @@ body footer {
     body main {
       background-color: white;
       color: black;
-      font-family: 'Nixie One', cursive;
       font-size: 12px;
-      font-style: italic;
-      font-weight: bold;
       text-align: center;
       line-height: 30px;
       width: 100%;
