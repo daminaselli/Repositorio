@@ -1,5 +1,5 @@
 let listaObjetos;
-if(localStorage.getItem("lista") == null){
+if(localStorage.getItem("lista") == null) {
     alert("No tenes productos")
 }else {
     let listaObjetos = JSON.parse(localStorage.getItem("lista"))
