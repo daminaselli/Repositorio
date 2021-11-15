@@ -16,3 +16,13 @@ if(listaFiltrada.length != 0){
     console.log ("No existe el producto")
 }
 
+const comprar = (dato) => {
+    let carrito;
+    if(localStorage.getItem("carrito") == null) {
+        carrito = []
+    }else {
+        carrito = JSON.parse(localStorage.getItem("carrito"))
+    }
+    carrito.push (dato)
+    localStorage.setItem("carrito", JSON.stringify(carrito))
+}
