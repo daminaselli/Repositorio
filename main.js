@@ -56,15 +56,11 @@ const confirmacionDeAcceso = () => {
                 localStorage.setItem("lista", JSON.stringify(listaProductos))
 
                 ciclo = confirm ("¿Desea agregar más productos?")
-
-
             }
-           
             break;
         } else {
             alert("USUARIO INCORRECTO");
         }
     }
 }
-
 confirmacionDeAcceso()
